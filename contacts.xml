@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>Mustafa</first_name>
+	<last_name>yeryteryteyt</last_name>
+	<phone_number>87325853453</phone_number>
+	<notes>Just another contact</notes>
+</contact>
+<contact>
+	<first_name>Hussein</first_name>
+	<last_name>eryteryterytery</last_name>
+	<phone_number>12345678</phone_number>
+	<notes>Abu ALi</notes>
+</contact>
+<contact>
+	<first_name>Tim</first_name>
+	<last_name>Bichaklak</last_name>
+	<phone_number>3846523</phone_number>
+	<notes>Great businessman</notes>
+</contact>
+<contact>
+	<first_name>dsrtsertsert</first_name>
+	<last_name>tertertret</last_name>
+	<phone_number>456456456</phone_number>
+	<notes>Hello there</notes>
+</contact>
+</contacts>
