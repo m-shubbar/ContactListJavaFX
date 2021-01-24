@@ -6,6 +6,7 @@ package ca.shubbar.datamodel;
  */
 
 
+import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 import javax.xml.stream.XMLEventFactory;
@@ -38,10 +39,20 @@ public class ContactsData {
     private ObservableList<Contact> contacts;
 
     public ContactsData() {
-        // *** initialize the contacts list here ***
+        contacts = FXCollections.observableArrayList();
     }
 
-    // *** Add methods to add/delete/access contacts here ***
+    public ObservableList<Contact> getContacts() {
+        return contacts;
+    }
+
+    public void addContact(Contact item) {
+        contacts.add(item);
+    }
+
+    public void deleteContacts(Contact item) {
+        contacts.remove(item);
+    }
 
     public void loadContacts() {
         try {
